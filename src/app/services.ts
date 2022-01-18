@@ -1,0 +1,7 @@
+import { serviceItem } from "./service-item";
+
+export const SERVICES: serviceItem[] = [
+    { name: 'Carpentry', description: 'i can do carpentry for you!', imageUrl: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.bls.gov%2Fooh%2Fimages%2F2876.jpg&imgrefurl=https%3A%2F%2Fwww.bls.gov%2Fooh%2Fconstruction-and-extraction%2Fcarpenters.htm&tbnid=fxxEzI80OiaPwM&vet=12ahUKEwiwjdKJpLr1AhUCVFMKHdFdBKEQMygVegUIARCEAg..i&docid=DspDGdY1e_3hGM&w=336&h=241&q=carpentry&hl=en&ved=2ahUKEwiwjdKJpLr1AhUCVFMKHdFdBKEQMygVegUIARCEAg' },
+    { name: 'Carpentry', description: 'i can do carpentry for you!', imageUrl: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.bls.gov%2Fooh%2Fimages%2F2876.jpg&imgrefurl=https%3A%2F%2Fwww.bls.gov%2Fooh%2Fconstruction-and-extraction%2Fcarpenters.htm&tbnid=fxxEzI80OiaPwM&vet=12ahUKEwiwjdKJpLr1AhUCVFMKHdFdBKEQMygVegUIARCEAg..i&docid=DspDGdY1e_3hGM&w=336&h=241&q=carpentry&hl=en&ved=2ahUKEwiwjdKJpLr1AhUCVFMKHdFdBKEQMygVegUIARCEAg' },
+    { name: 'Carpentry', description: 'i can do carpentry for you!', imageUrl: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.bls.gov%2Fooh%2Fimages%2F2876.jpg&imgrefurl=https%3A%2F%2Fwww.bls.gov%2Fooh%2Fconstruction-and-extraction%2Fcarpenters.htm&tbnid=fxxEzI80OiaPwM&vet=12ahUKEwiwjdKJpLr1AhUCVFMKHdFdBKEQMygVegUIARCEAg..i&docid=DspDGdY1e_3hGM&w=336&h=241&q=carpentry&hl=en&ved=2ahUKEwiwjdKJpLr1AhUCVFMKHdFdBKEQMygVegUIARCEAg' }
+]
