@@ -1,9 +1,14 @@
-<div class="section is-large has-background-link">
-    <h1 class="title has-text-white has-text-centered">Service Catalog</h1>
-    <div class="columns is-multiline">
-        <div *ngFor="let service of services" class="column has-text-centered has-text-white has-background-info">
-            <p class="title is-4 has-text-white">{{service.name}}</p>
-            <p class="subtitle is-5 has-text-white">{{service.description}}</p>
+<div class="section is-medium">
+    <div class="container">
+        <h1 class="title is-1 has-text-centered">Services</h1>
+        <div class="columns is-multiline">
+            <div *ngFor="let service of services" class="column has-text-centered is-half is-vcentered">
+                <div class="box">
+                    <p class="title is-4">{{service.name}}</p>
+                    <img src="https://bulma.io/images/placeholders/256x256.png">
+                    <p class="subtitle is-5">{{service.description}}</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
